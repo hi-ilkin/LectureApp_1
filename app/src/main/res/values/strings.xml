@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Sample Assistant</string>
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="btn_gonder">Gönder</string>
+    <string name="temizle">TEMİZLE</string>
+    <string name="msg_login_successful">Giriş başarılı</string>
+    <string name="msg_failed_login">Hatalı giriş</string>
+    <string name="btn_showList">Mekanlarım</string>
+    <string name="mail_header">Konu başlığı</string>
+    <string name="mail_body">Mesajınızı buraya yazın</string>
+    <string name="game_difficulty">Oyun Zorluğu</string>
+    <string name="highest_score">Hedeflenen Puan</string>
+    <string name="num_friends">Arkadaş sayı</string>
+    <string name="num_enemies">Düşman sayı</string>
+    <string name="default_level">Seviye</string>
+    <string name="btn_save_setting">Kaydet</string>
+    <string name="btn_load_settings">Geri Yükle</string>
+    <string name="btn_setting">Ayarlar</string>'
+
+    <string-array name="spin_difficulty">
+        <item>Çok kolay</item>
+        <item>Kolay</item>
+        <item>Orta</item>
+        <item>Zor</item>
+        <item>Yok daha neler</item>
+    </string-array>
+
+    <string-array name="place_names">
+        <item>YTÜ</item>
+        <item>Dem</item>
+        <item>Dolmabahçe Sarayı</item>
+        <item>Tesla</item>
+    </string-array>
+
+    <string-array name="place_location">
+        <item>https://www.google.com.tr/maps/place/Yemekhane/@41.0296707,28.9032414,14.03z/data=!4m5!3m4!1s0x0:0x8c0c883b36101c64!8m2!3d41.0268268!4d28.888244?hl=tr</item>
+        <item>geo:41.0296642,28.8853976?q=Dem</item>
+        <item>41.0465391,28.9161619?q=Dolmabahce Sarayi</item>
+        <!--<item>geo:50.133056,8.7633903?q=Tesla Motors</item>-->
+        <item>https://www.google.com.tr/maps/place/Tesla+Motors/@50.133056,8.7633903,17z/data=!3m1!4b1!4m5!3m4!1s0x47bd0e303f6e81cb:0x866484072db774d0!8m2!3d50.133056!4d8.765579?hl=tr</item>
+    </string-array>
+
+    <string-array name="phone_number">
+        <item>+905535521525</item>
+        <item>+905531462598</item>
+        <item>+905535521525</item>
+        <item>+905535521525</item>
+    </string-array>
+
+    <string-array name="place_email">
+        <item>huseynlilkin@gmail.com</item>
+        <item>huseynlilkin@hotmail.com</item>
+        <item>l1113119@std.yildiz.edu.tr</item>
+        <item>huseynlilkin@gmail.com</item>
+    </string-array>
+</resources>
