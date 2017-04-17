@@ -16,7 +16,7 @@ import android.widget.Toast;
 import static android.app.PendingIntent.getActivity;
 
 
-//This is just a test line to test github v2
+//This is just a test line to test github v2.1
 public class Ayarlar extends AppCompatActivity {
 
     Spinner spin_difficulty;
