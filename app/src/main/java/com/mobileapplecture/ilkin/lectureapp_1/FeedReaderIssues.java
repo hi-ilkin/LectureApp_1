@@ -35,6 +35,16 @@ public static class FeedEntry implements BaseColumns {
         public static final String COLUMN_ISSUE_SUBJECT = "issue_subject";
         public static final String COLUMN_ISSUE_BODY = "issue_body";
 
+
+        public static final String SQL_CREATE_ENTRIES = "Create Table " + FeedEntry.TABLE_NAME +
+                                                            FeedEntry._ID + " INTEGER PRIMARY KEY," +
+                                                            FeedEntry.COLUMN_STD_ID + " INTEGER," +
+                                                            FeedEntry.COLUMN_STD_NAME_SURNAME + " TEXT," +
+                                                            FeedEntry.COLUMN_ISSUE_SUBJECT + " TEXT," +
+                                                            FeedEntry.COLUMN_ISSUE_BODY + "TEXT";
+
+
+        public static final String SQL_DELETE_ENTRIES = "Drop table if exist "+ FeedEntry.TABLE_NAME;
     }
 
 

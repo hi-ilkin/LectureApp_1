@@ -22,17 +22,19 @@ public class InformationActivity extends AppCompatActivity {
         Button btn_ayarlar = (Button) findViewById(R.id.btn_ayarlar);
         Button btn_report = (Button) findViewById(R.id.btn_report);
 
-        Button city_button = (Button) findViewById(R.id.btn_cityList);
+//        Button city_button = (Button) findViewById(R.id.btn_cityList);
         Log.e("Button", "information activity");
 
 
-        city_button.setOnClickListener(new View.OnClickListener() {
+        /*city_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(InformationActivity.this, CityListActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
+
+
         txt_name.setText("Merhaba\n" + extras.getString("key_name") + " " + extras.getString("key_surname") + "!");
         btn_showList.setOnClickListener(new View.OnClickListener() {
             @Override
