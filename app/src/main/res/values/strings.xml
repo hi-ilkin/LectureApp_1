@@ -16,7 +16,10 @@
     <string name="default_level">Seviye</string>
     <string name="btn_save_setting">Kaydet</string>
     <string name="btn_load_settings">Geri Yükle</string>
-    <string name="btn_setting">Ayarlar</string>'
+    <string name="btn_setting">Ayarlar</string>
+    <string name="btn_Sikayet">Şikayetim Var</string>
+    <string name="lbl_sikayet_header">ŞİKAYET FORMU</string>
+    <string name="btn_Sikayet_text">Şikayeti Gönder</string>'
 
     <string-array name="spin_difficulty">
         <item>Çok kolay</item>

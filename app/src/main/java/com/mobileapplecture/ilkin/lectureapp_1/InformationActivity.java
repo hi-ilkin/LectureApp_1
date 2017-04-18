@@ -20,6 +20,7 @@ public class InformationActivity extends AppCompatActivity {
         TextView txt_name = (TextView) findViewById(R.id.txt_adSoyad);
         Button btn_showList = (Button) findViewById(R.id.btn_showList);
         Button btn_ayarlar = (Button) findViewById(R.id.btn_ayarlar);
+        Button btn_report = (Button) findViewById(R.id.btn_report);
 
         Button city_button = (Button) findViewById(R.id.btn_cityList);
         Log.e("Button", "information activity");
@@ -52,6 +53,13 @@ public class InformationActivity extends AppCompatActivity {
             }
         });
 
+        btn_report.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(InformationActivity.this, SikayetimVar.class);
+                startActivity(i);
+            }
+        });
 
     }
 

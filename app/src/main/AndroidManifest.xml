@@ -19,7 +19,8 @@
         <activity android:name=".InformationActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".Ayarlar" />
-        <activity android:name=".CityListActivity"></activity>
+        <activity android:name=".CityListActivity" />
+        <activity android:name=".SikayetimVar"></activity>
     </application>
 
 </manifest>

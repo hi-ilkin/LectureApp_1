@@ -1,6 +1,7 @@
 package com.mobileapplecture.ilkin.lectureapp_1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +17,6 @@ import android.widget.Toast;
 import static android.app.PendingIntent.getActivity;
 
 
-//This is just a test line to test github v2.1
 public class Ayarlar extends AppCompatActivity {
 
     Spinner spin_difficulty;
